@@ -135,3 +135,56 @@ justify-content: center;
 	align-items:flex-start;
 }
 /* <!-- start of offer --> */
+.sale-position{
+	position: relative;
+	bottom:460px;
+	left:190px;
+
+}
+.sale{
+	background: #0274BE;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+	color:white;
+	padding: 10px;
+	
+}
+.sale-positionf{
+	position: relative;
+	bottom:420px;
+	left:190px;
+
+}
+.salefive{
+	background: #0274BE;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+	color:white;
+	padding: 10px;
+	
+}
+
+.foot{
+	background-color: #424242;
+}
+.foot-caption{
+	text-align: justify;
+}
+.foot-caption a{
+	color:gray;
+}
+.foot-caption a:hover{
+	color:white;
+	text-decoration: none;
+}
+.foot-icon{
+	color: #026DB2;
+	display: flex;
+	justify-content: center;
+	/* align-items:center; */
+	
+}
+
+
