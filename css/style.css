@@ -33,7 +33,7 @@
 .carousel-caption a {
 	text-transform: uppercase;
 	background: white;
-	padding: 10px 30px;
+	padding: 15px 35px;
 	display: inline-block;
 	color: black;
 	margin-top: 15px;
@@ -92,9 +92,46 @@
 
 
   
-  /* End banner */
-.banner-text{
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: start !important;
+/*  start of collection */
+.coll-fimg{
+	height:109vh !important;
+
 }
+.coll-caption{
+display: flex;
+align-items:flex-end;
+justify-content: center;
+}
+
+.limg-caption{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items:flex-start;
+
+}
+
+.coll-btn{
+	text-transform: uppercase;
+	background: white;
+	padding: 15px 35px;
+	display: inline-block;
+	color: black;
+	margin-top: 15px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+/*  end of collection */
+.name{
+	font-size: 14px;
+}
+/* <!-- start of quote --> */
+.offer-postion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:flex-start;
+}
+/* <!-- start of offer --> */
