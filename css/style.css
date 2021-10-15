@@ -136,9 +136,10 @@ justify-content: center;
 }
 /* <!-- start of offer --> */
 .sale-position{
-	position: relative;
-	bottom:460px;
-	left:190px;
+	position: absolute;
+	
+	top:-15px;
+	right:-15px;
 
 }
 .sale{
@@ -150,20 +151,10 @@ justify-content: center;
 	padding: 10px;
 	
 }
-.sale-positionf{
-	position: relative;
-	bottom:420px;
-	left:190px;
 
-}
-.salefive{
-	background: #0274BE;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-	color:white;
-	padding: 10px;
-	
+
+.card-star i{
+	color:#026DB2;
 }
 
 .foot{
@@ -183,7 +174,7 @@ justify-content: center;
 	color: #026DB2;
 	display: flex;
 	justify-content: center;
-	/* align-items:center; */
+	align-items:center;
 	
 }
 
