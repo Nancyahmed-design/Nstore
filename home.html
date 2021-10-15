@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nstore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Responsive Homepage design with Bootstrap 4 and Animate css</title>
+      <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1 class="text-white">ow</h1></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto " >
+              <li class="nav-item active" >
+                <a class="nav-link text-white"  href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="lookbook.html">LOOKBOOK</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">ABOUTUs</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-white" href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+               </li>
+           </ul> 
+          
+          </div>
+        </div>
+                <!---------navbar------------------------------------------------->
+
+      </nav>
+      <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+          <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img alt="First slide" class="d-block w-100" src="imgs/home-slider1.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animated bounceInRight" style="animation-delay: 1s">INTRODUCING NEW ARRIVALS</h5>
+              <p class="animated bounceInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">view collection</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img alt="Second slide" class="d-block w-100" src="imgs/home-slider2-1.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animated slideInDown" style="animation-delay: 1s">INTRODUCING NEW ARRIVALS</h5>
+              <p class="animated fadeInUp" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+              <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">view collection</a></p>
+            </div>
+          </div>
+        
+        </div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+      </script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+      </script> 
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+      </script>
+    </body>
+    </html>
+    
+  
+
+        <!-- start of collection -->
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6 h-100 w-50">
+            <div class="card bg-dark text-white">
+              <img src="imgs/new-collection-1.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h1 class="card-title">SUMMER COLLECTION</h1>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-3 w-50 h-50">
+                <div class="card bg-dark text-white">
+                  <img src="imgs/men-collection.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h1 class="card-title">MENS COLLECTION </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 w-50 h-50">
+                <div class="card bg-dark text-white">
+                  <img src="imgs/women-collection-1.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h1 class="card-title">WOMENS COLLECTION</h1>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-6 w-100 h-50">
+                <div class="card bg-dark text-white">
+                  <img src="imgs/fashion-accessories.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h1 class="card-title">FREE SHIPPING</h1>
+                    <h4 class="card-text">On All Orders Above $299</h4>
+                    <button>VIEW COLLECTION</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+         
+        </div>
+      </div>
+           <!-- end of collection -->
+
+            <!-- start of quote -->
+            <div class="container">
+              <div class="row mt-5">
+                <div class="col-md-9">
+                  <i class="fas fa-quote-left"></i>
+                  <h3>
+                    Proident Earum, Luctus Autem, Class Impedit Nostrud Pariatur, <br>
+                    Perferendis Eiusmod Minima Perferendis, Itaque Recusandae <br>
+                    Eligendi Facilisis.</h3>   
+                </div>
+                <p>Mark Fosters</p>
+               
+              </div>
+            </div>
+                    
+            <!-- end of quote -->
+
+
+            <!-- start of offer -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6">
+                  <i class="fas fa-percentage"></i>
+                  <h1>25% OFF</h1>
+                  <h3>On All Orders Above $299!</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor<br>
+                     incididunt labore dolore.</p>
+               
+                 <button type="button" class="btn btn-primary btn-lg">GRAB THE OFFER</button>
+
+              </div>
+                <div class="col-md-6">
+                 <img src="imgs/smiling-girl (1).png">
+                </div>
+                
+              </div>
+            </div>
+            <!-- end of offer -->
+
+
+            <!-- start OF FEATURED PRODUCTS -->
+            <div class="container">
+              <h3 class="text-center">FEATURED PRODUCTS</h3>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/sports-shoe5.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Men's Shoes</p>
+                      <h5 class="card-title">DNK BLACK BLUE SPORT SHOES</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$35.00 $32.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/girltshirt.png" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">kids's T-shirt</p>
+                      <h5 class="card-title">WITE AND BLUE  KID'S  T-SHIRT</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$40.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/sports-shoe2.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Men's Shoes</p>
+                      <h5 class="card-title">DNK RED SPORT SHOES</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$35.00 $32.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/jeans2.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Women's Jeans
+                      </p>
+                      <h5 class="card-title">BASIC BLUE JEANS </h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$45.00 $32.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/skirt.webp" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Women's Skirt</p>
+                      <h5 class="card-title">BASIC WOMEN SKIRT</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$43.00 $30.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/product-accessory2.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Accessories</p>
+                      <h5 class="card-title">ANCHOR BRACELET</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$12.00 $10.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/product-accessory3.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Accessories</p>
+                      <h5 class="card-title">BUDDHA BRACELET</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$12.00 $10.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <img src="imgs/products/product-bag2.jpg" class="card-img-top h-75 w-100" alt="...">
+                    <div class="card-body h-50">
+                      <p class="card-text">Purses And Handbags</p>
+                      <h5 class="card-title"> BLACK OVER-THE-SHOULDER HANDBAG</h5>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <p>$75.00 </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end OF FEATURED PRODUCTS -->
+
+            <!-- start of servies -->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <i class="fas fa-cube"> <p>Express Delivery</p></i>
+                 
+                </div>
+                <div class="col-md-4">
+                  <i class="fas fa-map-marked-alt"></i>
+
+                  <p>Order Tracking</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fas fa-percentage"></i>
+                  <p>Regular Discounts</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of servies -->
+            
+            <!-- start of footer -->
+            <div class="container-fluid bg-secondary text-white">
+              <div class="row p-5">
+                <div class="col-md-2">
+                  <h1>WO</h1>
+                  <P>
+                    Lorem ipsum dolor  <br>
+                    sitamet, consectetur<br>
+                     adipiscing elit. Ut elit <br>
+                     tellus, luctus nec <br>
+                     ullamcorper mattis, <br>
+                     pulvinar dapibus leo.
+                  </P>
+                </div>
+                <div class="col-md-2">
+                  <p>SHOP COLLECTIONS</p>
+                  <a href="#">Men’s Jeans</a><br>
+                  <a href="#">Women’s Tops</a><br>
+                  <a href="#">Hoodies</a><br>
+                  <a href="#">Jackets</a><br>
+                  <a href="#">Shoes</a><br>
+                </div>
+                <div class="col-md-2">
+                  <p>LATEST COLLECTION</p>
+                  <a href="#">Bags</a><br>
+                  <a href="#">Accessories</a><br>
+                  <a href="#">Shorts</a><br>
+                  <a href="#">Wallets</a><br>
+                  <a href="#">Sunglasses</a><br>
+                </div>
+                <div class="col-md-2">
+                  <p>POPULAR COLLECTION</p>
+                  <a href="#">Women’s Shorts
+                  </a><br>
+                  <a href="#">Belts</a><br>
+                  <a href="#">Watches</a><br>
+                  <a href="#">Women’s Jeans</a><br>
+                  <a href="#">Formal Shoes</a><br>
+                </div>
+                <div class="col-md-2">
+                 <p>QUICK LINKS</p>
+                 <a href="#">Home</a><br>
+                  <a href="#">Shop</a><br>
+                  <a href="#">Lookbook</a><br>
+                  <a href="#">About Us</a><br>
+                  <a href="#">Contact Us</a><br>
+                </div>
+              </div>
+            </div>
+            <!-- end of footer -->
+
+
+
+            <div class="container-fluid d-flex  mt-3 ">
+              <p class="me-auto p-2 text-secondary copy-size">Copyright © 2021 eCourse
+              
+              </p>
+              <div class="text-center">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+              
+              <p class="p-2 text-secondary copy-size">Powered by EgyTech
+              
+              </p>
+              </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
