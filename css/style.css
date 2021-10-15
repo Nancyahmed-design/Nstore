@@ -171,10 +171,13 @@ justify-content: center;
 	text-decoration: none;
 }
 .foot-icon{
-	color: #026DB2;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items:center;
+}
+.foot-icon i{
+	color: #026DB2;
+	
 	
 }
 
