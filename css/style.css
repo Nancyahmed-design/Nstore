@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
   
 }
 
@@ -133,8 +134,16 @@ justify-content: center;
 	flex-direction: column;
 	justify-content: center;
 	align-items:flex-start;
+	align-content:center;
 }
 /* <!-- start of offer --> */
+.offer-bg{
+	background-image: url("../imgs/bgoffer/images.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+
+}
 .sale-position{
 	position: absolute;
 	
@@ -181,4 +190,47 @@ justify-content: center;
 	
 }
 
+/************************************* About *********************************************/
+.card-border{
+	position: relative;
+	border: none !important;
+	border-radius: 50%;
+	/* width: 100% !important;
+	height: 100% !important; */
+	
+}
 
+.card-caption{
+	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	z-index: 2;
+	color: black;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:93%;
+	height: 100%;
+	background:rgba(242, 242, 241,0.75) ;
+	z-index: 1;
+	/* overflow: hidden; */
+	
+
+}
+/* .img-animation{
+	transition: transform .2s; 
+	
+} */
+
+
+.img-animation:hover{
+	/* transition-property: transform;
+	transition-duration:0.3s; */
+	 /* transform: scale(1.5); */
+	transform: rotate(10deg); 
+
+
+}
