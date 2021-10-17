@@ -191,6 +191,28 @@ justify-content: center;
 }
 
 /************************************* About *********************************************/
+                        /* STRAT OF nav */
+						.banner-image {
+							position: relative;
+							background-image: url('../imgs/home-slider1.jpg');
+							background-size: cover;
+							width: 100%;
+							height: 75vh;
+							font-size: 36px !important;
+				             }	
+						  .nav-head{
+							  font-size: 36px !important;
+						  }	
+						
+						.onphoto{
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 75vh;
+							background:rgba(94,87,87,0.5) ;
+						}			
+                        /* END OF NAV */
 .card-border{
 	position: relative;
 	border: none !important;
@@ -234,3 +256,26 @@ justify-content: center;
 
 
 }
+/*************************************8 start of lookbook *******************************/
+ /* STRAT OF nav */
+ .banner-look-image {
+	position: relative;
+	background-image: url('../imgs/lookbook/lookbook-banner.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	font-size: 36px !important;
+	 }	
+  .nav-head{
+	  font-size: 36px !important;
+  }	
+
+.onlookphoto{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100vh;
+	background:rgba(99,98,98,0.7) ;
+}			
+/* END OF NAV */
