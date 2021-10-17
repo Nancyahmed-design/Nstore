@@ -310,3 +310,29 @@ justify-content: center;
 	background-color: #FAFAFA !important;
 	border-color: #EAEAEA !important;
 }
+
+/************************************* card *************************/
+
+.line{
+	width: 100%;
+	height: 2px;
+	margin: 20px ;
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+	background-color: #0274BE;
+  }
+  .line:after {
+	content: '';
+	width: 80%;
+	border-top: solid 2px #0274BE;
+	position: absolute;
+	left: -5%;
+	top: -5%;
+	z-index: 1;
+  }
+
+  /********************************* shop *************************/
+  .shop-btn{
+	  border:solid 1px #EAEAEA !important;
+  }
