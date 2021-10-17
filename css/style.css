@@ -279,3 +279,34 @@ justify-content: center;
 	background:rgba(99,98,98,0.7) ;
 }			
 /* END OF NAV */
+
+/***************************** start of lookbook *********************************/
+/* problem */
+.lookbook-layer-img{
+	position: relative !important;
+	z-index: 1;
+}
+.ookbook-layer{
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height:100vh !important;
+	background:rgba(44,82,155,0.9) !important;
+	z-index: 2;
+}
+
+/**************************************** contactus *********************************/
+.banner-contact-image{
+	position: relative;
+							background-image: url('../imgs/home-slider2-1.jpg');
+							background-size: cover;
+							width: 100%;
+							height: 75vh;
+							font-size: 36px !important;
+}
+
+.color{
+	background-color: #FAFAFA !important;
+	border-color: #EAEAEA !important;
+}
